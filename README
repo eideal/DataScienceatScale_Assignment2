@@ -1,0 +1,21 @@
+README for DataScienceatScale_Assignment2
+
+----------------------
+
+These are my solutions to Assignment 2 for the Data Science at Scale Coursera Specialization.
+
+----------------------
+
+Files:
+
+reuters.db: A database containing one table called Frequency. The table has three columns (docid, term, count) where docid is a document identifier corresponding to a particular file of text, term is an English word representing a term in a given document, and count is the number of the occurrences of the term within the document.
+
+matrix.db: A database contianing two tables call A and B, which are matrices. Each table has three columns (row_num, col_num, value), where row_num and col_num are the row number and column number in the matrix, and value is the integer stored in that (row_num, col_num).
+
+ans_matrix.sql: My solutions for Problem 2 of the assignment which involves a single query against the matrix.db database.
+
+ans_reuters.sql: My solutions for Problem 1 and Problem 3 of the assignment which involve many queries against the reuters.db databse.
+
+part_(a-i).txt: Text files each containing a single line that corresponds to the output of each SQL query in ans_matrix.sql and ans_reuters.sql. These are the files that are submitted for grading.
+
+
